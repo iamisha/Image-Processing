@@ -1,6 +1,44 @@
+# Jupyter Notebook
 .ipynb_checkpoints/
-*.pyc
+
+# Python 
+*.py[cod]
 __pycache__/
+*$py.class
+*.so
+.Python
+
+# Virtual Environment
+/env/
+env/
+venv/
+ENV/
+
+# Editor backup files
 *.~*
-/env
+*.swp
+*.swo
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# OS specific files
+.DS_Store
+Thumbs.db
+
+# Git related
 .gitattributes
+
+# Local configuration
+*.local.conf
+.env
+
+# Logs and databases
+*.log
+*.sqlite
+
+
+# results/**/*.nii.gz
+# results/output\ images/
